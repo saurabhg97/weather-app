@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+/*  
+body{
+    background: #222;
+} */
+
+/* 
+body {
+    background: linear-gradient(135deg, #2E3192, #1BFFFF);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+} */
+
+/* 
+body {
+    background: radial-gradient(circle, rgba(75, 0, 130, 0.8), #000000 70%);
+    background-attachment: fixed;
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+} */
+
+
+/* body {
+    background: radial-gradient(circle at 30% 30%, #6a0dad, #000000);
+    background-attachment: fixed;
+    color: lavender;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+} */
+
+/* 
+
+body {
+    background: linear-gradient(160deg, #000000, #3b0066, #4e00b3);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+} */
+
+
+body {
+    background: linear-gradient(145deg, #1a1a2e, #662d91, #0d0d0d);
+    background-attachment: fixed;
+    color: #d3d3d3;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+/* 
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #ffff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px ;
+    text-align: center;
+} */
+/* 
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #2d033b, #81007f);
+    color: #f1e4ff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+} */
+/* 
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #005f73, #94d2bd);
+    color: #ffffff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+} */
+/* 
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #ffffff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+} */
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #1e1e2f, #6effd3);
+    color: #e0e0e0;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 16px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather{
+    display: none;
+}
+
+
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
